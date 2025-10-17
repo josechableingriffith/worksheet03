@@ -49,3 +49,7 @@ li {
 .label { 
     font-weight:600; 
 }
+
+#back {
+    text-align: left;
+}
