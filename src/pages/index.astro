@@ -1,16 +1,28 @@
 ---
-
+import "../styles/style.css"
 ---
-
+<style lang="scss"></style>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>3196046 - Jose Chable - WorkSheet Week 3</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<article class="card">
+			<img id="photo" src="../src/images/profile-photo.jpg" alt="Profile Photo">
+			<h1>Jose Chable</h1>
+			<p>I was born in Oaxaca, Mexico. I grew up in a family of 3 siblings and at the age of 18 I decided to start my higher education outside my hometown. </p>
+
+			<p>I have a bachelor’s degree in Multimedia & Communication Engineering from the University of Guadalajara in Jalisco, Mexico</p>
+			<h2>Fun facts:</h2>
+			<ul>
+				<li><span class="label">The name of my pet is:</span> <span id="pet-name">Jack</span></li>
+				<li><span class="label">My favorite food is:</span> <span id="fav-food"><a href="/food.astro">Chilaquiles</a></span></li>
+				<li><span class="label">I was born on:</span> <span id="birth-day">Monday</span></li>
+			</ul>
+		</article>
 	</body>
 </html>
